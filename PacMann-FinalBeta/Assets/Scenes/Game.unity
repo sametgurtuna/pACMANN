@@ -9779,10 +9779,7 @@ GameObject:
   - component: {fileID: 308052080}
   - component: {fileID: 308052078}
   - component: {fileID: 308052083}
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   - component: {fileID: 308052084}
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_Layer: 0
   m_Name: PinkGhost
   m_TagString: Enemy
@@ -9835,61 +9832,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4994328, y: 1.3714429}
   m_EdgeRadius: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
-=======
---- !u!212 &308052079
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308052077}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8b86f6eb7cae9aa4689c2fc149015899, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.1, y: 2.1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!114 &308052080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9983,7 +9925,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
 --- !u!212 &308052084
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10036,8 +9977,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!1 &314424036
 GameObject:
   m_ObjectHideFlags: 0
@@ -17229,11 +17168,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_Sprite: {fileID: 21300000, guid: 98bf8c081148d8c41a99b9d25f13520f, type: 3}
-=======
-  m_Sprite: {fileID: 21300000, guid: 327a5332fc5a3d548912693eb9b8c99a, type: 3}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20286,6 +20221,7 @@ GameObject:
   - component: {fileID: 704122092}
   - component: {fileID: 704122090}
   - component: {fileID: 704122095}
+  - component: {fileID: 704122096}
   m_Layer: 0
   m_Name: OrangeGhost
   m_TagString: Enemy
@@ -20329,8 +20265,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.1, y: 2.1}
-    newSize: {x: 2.1, y: 2.1}
+    oldSize: {x: 5.76, y: 5.76}
+    newSize: {x: 5.76, y: 5.76}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -20338,61 +20274,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4994328, y: 1.3714429}
   m_EdgeRadius: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
-=======
---- !u!212 &704122091
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704122089}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8b86f6eb7cae9aa4689c2fc149015899, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.1, y: 2.1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!114 &704122092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20489,6 +20370,58 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!212 &704122096
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704122089}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 378074e3205544947917c466f0bf86f6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.76, y: 5.76}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &711819611
 GameObject:
   m_ObjectHideFlags: 0
@@ -23634,11 +23567,7 @@ MonoBehaviour:
   pelletsLeft: 0
   pellectedCollectedOnThisLife: 0
   scoreText: {fileID: 495404033}
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   gameoverText: {fileID: 765471524}
-=======
-  gameoverText: {fileID: 284665760}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   livesText: {fileID: 1163359342}
   redGhostController: {fileID: 0}
   pinkGhostController: {fileID: 0}
@@ -32065,11 +31994,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_Sprite: {fileID: 21300000, guid: 98bf8c081148d8c41a99b9d25f13520f, type: 3}
-=======
-  m_Sprite: {fileID: 21300000, guid: 327a5332fc5a3d548912693eb9b8c99a, type: 3}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -32464,11 +32389,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_Sprite: {fileID: 21300000, guid: 98bf8c081148d8c41a99b9d25f13520f, type: 3}
-=======
-  m_Sprite: {fileID: 21300000, guid: 327a5332fc5a3d548912693eb9b8c99a, type: 3}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -34308,6 +34229,7 @@ GameObject:
   - component: {fileID: 1118793658}
   - component: {fileID: 1118793656}
   - component: {fileID: 1118793661}
+  - component: {fileID: 1118793662}
   m_Layer: 0
   m_Name: BlueGhost
   m_TagString: Enemy
@@ -34351,8 +34273,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.1, y: 2.1}
-    newSize: {x: 2.1, y: 2.1}
+    oldSize: {x: 5.76, y: 5.76}
+    newSize: {x: 5.76, y: 5.76}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -34360,61 +34282,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4994328, y: 1.3714429}
   m_EdgeRadius: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
-=======
---- !u!212 &1118793657
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118793655}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8b86f6eb7cae9aa4689c2fc149015899, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.1, y: 2.1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!114 &1118793658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34513,7 +34380,58 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
+--- !u!212 &1118793662
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118793655}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 378074e3205544947917c466f0bf86f6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5.76, y: 5.76}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1122700401
 GameObject:
   m_ObjectHideFlags: 0
@@ -34598,8 +34516,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!1 &1124595316
 GameObject:
   m_ObjectHideFlags: 0
@@ -35792,11 +35708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_AnchoredPosition: {x: 250.6, y: 260.20004}
-=======
-  m_AnchoredPosition: {x: 266.7, y: 267}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1163359342
@@ -35821,13 +35733,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Lives: 3'
   m_isRightToLeft: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_fontAsset: {fileID: 11400000, guid: 6ba434c8dd58b664dbe90232c9518db6, type: 2}
   m_sharedMaterial: {fileID: -3920699265488797874, guid: 6ba434c8dd58b664dbe90232c9518db6, type: 2}
-=======
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -35851,13 +35758,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_fontSize: 10
   m_fontSizeBase: 10
-=======
-  m_fontSize: 19
-  m_fontSizeBase: 19
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -39321,10 +39223,7 @@ GameObject:
   - component: {fileID: 1261755880}
   - component: {fileID: 1261755883}
   - component: {fileID: 1261755884}
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   - component: {fileID: 1261755885}
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_Layer: 0
   m_Name: OrangeCat
   m_TagString: Enemy
@@ -39332,61 +39231,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
-=======
---- !u!212 &1261755879
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1261755878}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 8b86f6eb7cae9aa4689c2fc149015899, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.1, y: 2.1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!114 &1261755880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39514,11 +39358,7 @@ Animator:
   m_GameObject: {fileID: 1261755878}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_Controller: {fileID: 9100000, guid: dcab21d481e0e324c8e6a050227942de, type: 2}
-=======
-  m_Controller: {fileID: 9100000, guid: b6b129e7dfb8b1743941601cfdb75067, type: 2}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -39529,7 +39369,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
 --- !u!212 &1261755885
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -39582,8 +39421,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!1 &1269042274
 GameObject:
   m_ObjectHideFlags: 0
@@ -41330,7 +41167,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
 --- !u!1 &1337703167
 GameObject:
   m_ObjectHideFlags: 0
@@ -41415,8 +41251,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
 --- !u!1 &1338961702
 GameObject:
   m_ObjectHideFlags: 0
@@ -44045,10 +43879,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 495404035}
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   - {fileID: 765471522}
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   - {fileID: 1163359341}
   - {fileID: 141269035}
   - {fileID: 217178421}
@@ -49999,11 +49830,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scenes/SampleScene.unity
   m_Sprite: {fileID: 21300000, guid: 98bf8c081148d8c41a99b9d25f13520f, type: 3}
-=======
-  m_Sprite: {fileID: 21300000, guid: 327a5332fc5a3d548912693eb9b8c99a, type: 3}
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scenes/SampleScene.unity
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -346,20 +346,13 @@ public class GameManager : MonoBehaviour
             siren.Stop();
             powerPelletAudio.Play();
             isPowerPelletRunning = true;
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/GameManager.cs
             currentPowerPelletTime = 0;
-=======
-            currentPowerPelletTime = 0;            
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/GameManager.cs
 
             redGhostController.SetFrightened(true);
             pinkGhostController.SetFrightened(true);
             blueGhostController.SetFrightened(true);
             orangeGhostController.SetFrightened(true);
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/GameManager.cs
 
-=======
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/GameManager.cs
         }
     }
 

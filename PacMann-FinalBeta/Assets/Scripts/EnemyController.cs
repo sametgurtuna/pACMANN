@@ -57,11 +57,7 @@ public class EnemyController : MonoBehaviour
     void Awake()
     {
         animator = GetComponent<Animator>();
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/EnemyController.cs
         ghostSprite = GetComponentInChildren<SpriteRenderer>();
-=======
-        ghostSprite = GetComponent<SpriteRenderer>();
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/EnemyController.cs
 
         scatterNodeIndex = 0;
 
@@ -148,21 +144,13 @@ public class EnemyController : MonoBehaviour
         {
             if(ghostNodeState != GhostNodeStatesEnum.respawning)
             {
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/EnemyController.cs
                ghostSprite.enabled = true;
-=======
-                ghostSprite.enabled = true;
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/EnemyController.cs
             }
             else
             {
                 ghostSprite.enabled = false;
             }
             
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/EnemyController.cs
-=======
-            eyesSprite.enabled = true;
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/EnemyController.cs
         }
         else
         {
@@ -172,21 +160,12 @@ public class EnemyController : MonoBehaviour
         if (isFrightened)
         {
             animator.SetBool("frightened", true);
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/EnemyController.cs
-=======
-            eyesSprite.enabled = false;
-            ghostSprite.color = new Color(255, 255, 255, 255);
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/EnemyController.cs
         }
         else
         {
             animator.SetBool("frightened", false);
             animator.SetBool("frightenedBlinking", false);
 
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/EnemyController.cs
-=======
-            ghostSprite.color = color;
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/EnemyController.cs
         }
 
         if (!gameManager.gameIsRunning)
@@ -221,12 +200,8 @@ public class EnemyController : MonoBehaviour
             if (isFrightened)
             {
                 movementController.SetSpeed(1);
-<<<<<<< HEAD:PacMann-FinalBeta/Assets/Scripts/EnemyController.cs
                 ghostSprite.enabled = false;
             }
-=======
-            }  
->>>>>>> 4eb5eb8e52e0259e2326d6d03000dbffaf76dbea:PacMann-main/Assets/Scripts/EnemyController.cs
             else if(ghostNodeState == GhostNodeStatesEnum.respawning)
             {
                 movementController.SetSpeed(7);
